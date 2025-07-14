@@ -1,0 +1,21 @@
+{
+  "name": "@draft-ui/monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Draft UI Monorepo",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "docs": "pnpm --filter @draft-ui/docs dev",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
